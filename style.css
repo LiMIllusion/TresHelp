@@ -1,0 +1,98 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0,
+}
+body{
+  display:flex;
+}
+#app {
+ padding: 3%;
+ flex: 1;
+ display:flex;
+ flex-direction: column;
+ background: rgb(37,68,65);
+  background: linear-gradient(180deg, rgba(37,68,65,1) 30%, rgba(50,93,88,1) 100%);
+ justify-content: space-evenly;
+ align-item: space-evenly;
+}
+
+.box{
+  background-color: #f8f8f8;
+  border-radius: 2px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  padding:5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+.teamInfo{
+  flex:1;
+  
+}
+
+.teamName{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.teamPoints{
+  flex:1;
+  display:flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+.teamPoints > p {
+  font-size: 30pt;
+}
+
+.buttons{
+  display:flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: stretch;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(230,194,41);
+  border-color: linear-gradient(180deg, rgba(230,194,41,1) 30%, rgba(255,231,76,1) 100%); 
+  border-radius: 2px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.10), 0 1px 4px rgba(0,0,0,0.17);
+  color: white;
+  padding: 2%;
+  margin: 1%;
+  flex: 1;
+  width: auto;
+}
+
+.green{
+  background: rgb(37,68,65);
+  background: linear-gradient(180deg, rgba(37,68,65,1) 30%, rgba(50,93,88,1) 100%);
+}
+
+.red {
+  background: rgb(219,80,74);
+background: linear-gradient(180deg, rgba(219,80,74,1) 30%, rgba(255,111,89,1) 100%);
+}
+
+input {
+  border : 0;
+  border-bottom: 1px solid rgb(230,194,41);
+  text-align: center;
+  
+}
