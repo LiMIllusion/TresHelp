@@ -1,7 +1,7 @@
 html, body {
   height: 100%;
   margin: 0;
-  padding: 0,
+  padding: 0;
   touch-action: manipulation;
 }
 body{
@@ -15,7 +15,6 @@ body{
  background: rgb(37,68,65);
   background: linear-gradient(180deg, rgba(37,68,65,1) 30%, rgba(50,93,88,1) 100%);
  justify-content: space-evenly;
- align-item: space-evenly;
 }
 
 .box{
