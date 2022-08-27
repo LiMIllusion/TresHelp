@@ -1,0 +1,12 @@
+{
+  "name": "treshelp",
+  "version": "0.0.1",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve",
+    "build": "echo This is a static template, there is no bundler or bundling involved!"
+  },
+  "devDependencies": {
+    "serve": "^11.2.0"
+  }
+}
